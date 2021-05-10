@@ -5,19 +5,22 @@ This JAVA console program prompts the user to enter a currency code and displays
 
 ## How to execute the application?
 
-#### 1. Using command line:
+#### create .jar file:
+
+* clone the repository
 
 * Generate .jar file
 ```
-mvn clean install
+mvn clean package
 ```
-* Run from path where .jar file is placed (target folder): 
+#### Execute using command line:
 
+* Run from path where .jar file is placed (target folder): 
 ```
 java -jar bitcoin-trend-0.0.1.jar
 ```
 
-##### 3. Using Docker Image:
+#### Execute using Docker
 
 * Pull docker image from Dockerhub:
 ```
