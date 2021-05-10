@@ -27,7 +27,7 @@ java -jar bitcoin-trend-0.0.1.jar
 docker pull haritee/bitcoin-trend:v1.0
 ```
 
-* Run Docker image:
+* Run Docker image from /bitcoin-trend folder:
 ```
 docker run -i -t haritee/bitcoin-trend:v1.0
 ```
